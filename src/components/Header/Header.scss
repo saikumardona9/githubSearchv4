@@ -1,0 +1,30 @@
+.header {
+  display:flex;
+  width: 100%;
+  padding: 0 5vw;
+  justify-content: space-between;
+}
+
+.theme-btn {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    img {
+      width: 30px;
+      margin-left: 10px;
+  }
+
+    span {
+      background-color: #fff;
+      padding: 9px 15px;
+      border-radius: 5px;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
